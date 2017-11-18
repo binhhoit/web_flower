@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>OLI'S GARDEN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/logo1.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#myPage"><img src="images/logo2.png" style="width: 12%;margin-top: -20px;" alt=""></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar" id="menuf">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="index.html">GIỚI THIỆU</a></li>
+                    <li><a href="#myPage">SẢN PHẨM</a></li>
+                    <li><a href="blog1.html">BLOG</a></li>
+                    <li><a href="index.html">KHUYẾN MÃI</a></li>
+                    <li><a href="index.html">LIÊN HỆ</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Container (The Band Section) -->
+    <div id="myPage" class="container text-center myPage hover homepage" onmousemove="passf()" onmouseout="passs()">
+        <img class="headerimg img1" src="images/header1.png" alt="hinh 1">
+        <img class="headerlogo" src="images/title.png" alt="">
+        <img class="headerimg img2" src="images/header2.png" alt="hinh 2">
+        <nav class="navbar navbar-default " id="idmenu">
+            <div class="addnav collapse navbar-collapse" id="myNavbar" >
+                <ul class="nav navbar-nav navbar-right menu_ul" id="ddd">
+                    <li><a href="index.html">TRANG CHỦ</a></li>
+                    <li><a href="index.html">GIỚI THIỆU</a></li>
+                    <li><a href="#myPage">SẢN PHẨM</a></li>
+                    <li><a href="blog1.html">BLOG</a></li>
+                    <li><a href="index.html">KHUYẾN MÃI</a></li>
+                    <li><a href="index.html">LIÊN HỆ</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </div>
+
+    <!-- slide -->
+    <div id="blog1" class="hover container">
+        <div align="center">
+            <img class="line1" src="images/line1.png" alt="">
+            <div class="title">
+                purchase
+            </div>
+        </div>
+        <div align="left">
+            <a href="done.html">
+                <img class="purchar" src="images/icon1.png" alt=""></a>
+        </div>
+        <div align="center">
+            <img class="image_center" style="width: 100%; border: none" src="images/Thanhtoan.png" alt="sản phẩm cần thanh toán">
+            <div align="left" class="bin" style="margin-top: -52%;">
+                <a href="remove.html">
+                    <img class="bin_image" src="images/iconbin.png" alt=""></a>
+            </div>
+            <div align="left" class="bin" style="margin-top: -5%;">
+                <a href="remove.html">
+                    <img class="bin_image" src="images/iconbin.png" alt=""></a>
+            </div>
+        </div>
+        <div class="info_purchar">
+            <p class="blog_texta">Thông tin người mua: </p>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="Họ và tên" id="usr">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="Số điện thoại" id="pwd">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="Email" id="pwd">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="Địa chỉ" id="pwd">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control blog_textc formx" rows="3" id="comment" placeholder="Ghi chú"></textarea>
+            </div>
+        </div>
+        <div class="info_purchar">
+            <p class="blog_texta">Thông tin người mua: </p>
+            <div class="form-group">
+                <input type="submit" class="form-control blog_textc atv" id="info" onclick="info()" value="Cùng thông tin người mua" id="pwd" style="width:270px;">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="Số điện thoại" id="pwd">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="email" id="pwd">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control blog_textc formx" placeholder="địa chỉ" id="pwd">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control blog_textc formx" rows="3" id="comment" placeholder="ghi chú"></textarea>
+            </div>
+        </div>
+        <div class="info_purchar">
+            <p class="blog_texta">Hình thức nhận hàng: </p>
+            <div class="form-group">
+                <input type="submit" id="receiverstore" onclick="clickR('a')"  class="form-control blog_textc atv" value="nhận tại cửa hàng" id="pwd" style="width:270px;">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="receiverHome" onclick="clickR('b')" class="form-control blog_textc atv" value="nhận tại nhà" id="pwd" style="width:270px;">
+            </div>
+        </div>
+        <div class="info_purchar">
+            <p class="blog_texta">Hình thức thanh toán: </p>
+            <div class="form-group">
+                <input type="submit" id="pal_money"  onclick="clickP('a')"class="form-control blog_textc atv" value="thanh toán bằng tiền mặt" id="pwd" style="width:270px;">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="pal_inter"  onclick="clickP('b')"class="form-control blog_textc atv" value="thanh toán trực tuyến" id="pwd" style="width:270px;">
+            </div>
+            <div class="form-group">
+                <input type="submit" id="pal_bank"  onclick="clickP('c')"class="form-control blog_textc atv" value="chuyển khoản" id="pwd" style="width:270px;">
+            </div>
+        </div>
+
+        <div class="complete" style="margin-top: 5%">
+            <a href="done.html"><p style="color: white"> Thanh Toán</p></a>
+        </div>
+
+        <!-- end -->
+        <div align="center">
+            <img class="line1" src="images/line2.png" alt="">
+        </div>
+                </br>
+        </br>
+        </br>
+        </br>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <div class="footer_image">
+            <img class="footer_imagef" src="images/footer.png" alt="">
+        </div>
+        <div class="footer_center">
+            <img class="footer_logo" src="images/logo2.png" alt="">
+            <div class="footer_text">
+                <p class="footer_p"><a href="http://olisgarden.com" data-toggle="tooltip" title="oli's garden">http://olisgarden.com</a></p>
+                <p class="footer_p">tel : 08 (3) 888 888</p>
+                <p class="footer_p">email: <a href="https://mail.google.com" data-toggle="tooltip" title="oli's garden">cskh@olisgarden.com</a></p>
+                <p class="footer_p">add : 789 Nguyen Du, Ben Thanh Ward, </p>
+                <p class="footer_p">District 1, Ho Chi Minh City</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
